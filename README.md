@@ -3,8 +3,9 @@ We will be provisioning the below resources
 * A VPC network with public and private subnet
 * EKS cluster with autoscaling group for worker nodes
 
-We will output the cluster details and will use the kubeconfig file for deploying applications to our cluster
-We are using the terraform aws modules aws vpc for vpc creation and aws eks for setting up our cluster
+
+We are making use of  the terraform aws modules aws-vpc for vpc creation and aws-eks for setting up our cluster
+After the cluster creation, we will output the cluster details and will use the kubeconfig file for accessing the cluster and deploying applications to the cluster later.
 
 
 **Backend.tf**
