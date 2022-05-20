@@ -16,12 +16,12 @@ vpc.tf
 =======
 We are using the aws vpc module for the vpc creation.
 We will define the below inside the file
-      * Name for VPC 
-      * The CIDR range.
-      * Public and private subnets
-      * Availabilty zones
-      * Enable NAT gateway, single NAT gateway and dns hostname for the worker nodes
-      * Adding tags to the private and public subnets
+* Name for VPC 
+* The CIDR range.
+* Public and private subnets
+* Availabilty zones
+* Enable NAT gateway, single NAT gateway and dns hostname for the worker nodes
+* Adding tags to the private and public subnets
 
 eks-cluster.tf
 ==========
