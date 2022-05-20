@@ -1,7 +1,7 @@
 # eks-cluster
 We will be provisioning the below resources
-  >>> A VPC network with public and private subnet
-  >>> EKS cluster with autoscaling group for worker nodes
+* A VPC network with public and private subnet
+* EKS cluster with autoscaling group for worker nodes
 We will output the cluster details and will use the kubeconfig file for deploying applications to our cluster
 We are using the terraform aws modules aws vpc for vpc creation and aws eks for setting up our cluster
 
